@@ -13,9 +13,14 @@ use yii\widgets\ActiveForm;
 
     <?php $form = ActiveForm::begin(); ?>
 
+
     <?= $form->field($model, 'post_subject')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'post_body')->textarea(['rows' => 6]) ?>
+	<?php echo $form->field($model, 'post_body')->widget(\yii2mod\markdown\MarkdownEditor::class, [
+		'editorOptions' => [
+			'showIcons' => ["code", "table"],
+		],
+	]); ?>
 
     <?= $form->field($model, 'post_date')->widget(Datetimepicker::className(), ['options' => [
         'lang' => 'ru',
