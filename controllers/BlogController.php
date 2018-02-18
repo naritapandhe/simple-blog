@@ -84,12 +84,9 @@ class BlogController extends Controller
 	 */
 	public function actionCreate()
 	{
-		Yii::trace('in createeeeee!!!',$category = 'test1');
 		$model = new Blog();
 		$model->author = Yii::$app->user->id;
-		Yii::trace('Before Save!!!',$category = 'test1');
 		if ($model->load(Yii::$app->request->post()) && $model->save()) {
-			Yii::trace('Saved!!!',$category = 'test1');
 			return $this->redirect(['view', 'id' => $model->id]);
 		} else {
 			return $this->render('create', [

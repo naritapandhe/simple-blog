@@ -2,6 +2,8 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
+use yii\helpers\Markdown;
+
 
 /* @var $this yii\web\View */
 /* @var $model app\models\Blog */
@@ -28,11 +30,19 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php }?>
 
     <?= DetailView::widget([
-        'model' => $model,
-        'attributes' => [
-            'post_body:ntext',
-            'post_date',
-        ],
+		'model' => $model,
+		'attributes' => [
+			[
+				'label' => 'Contents',
+				'value' => Markdown::process($model->post_body),
+                'format' => 'raw',
+			],
+			[
+				'label' => 'Date',
+				'value' => $model->post_date,
+        	],
+		],
+
     ]) ?>
 
 </div>

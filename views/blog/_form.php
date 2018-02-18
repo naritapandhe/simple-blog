@@ -18,7 +18,7 @@ use yii\widgets\ActiveForm;
 
 	<?php echo $form->field($model, 'post_body')->widget(\yii2mod\markdown\MarkdownEditor::class, [
 		'editorOptions' => [
-			'showIcons' => ["code", "table"],
+			'toolbar' => false,
 		],
 	]); ?>
 
