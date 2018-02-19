@@ -1,6 +1,10 @@
 
 <p align="center">
+    <a href="https://github.com/yiisoft" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+    </a>
     <h1 align="center">Simple Blog App</h1>
+    <h3 align="center">Access at: <a href="http://ec2-54-244-208-11.us-west-2.compute.amazonaws.com/">http://ec2-54-244-208-11.us-west-2.compute.amazonaws.com/</a></h3>
     <br>
 </p>
 
@@ -51,7 +55,7 @@ EXTENSIONS USED
       
 <p align="center">
     
-   You can access this web app at: [http://ec2-54-244-208-11.us-west-2.compute.amazonaws.com/](http://ec2-54-244-208-11.us-west-2.compute.amazonaws.com/) 
+    
 </p>      
       
    
