@@ -8,9 +8,9 @@
     <br>
 </p>
 
-&ast; This is a sample blogging web app built with MVC framework - [Yii 2](http://www.yiiframework.com/) and [Bootstrap](http://getbootstrap.com/). 
+:small_blue_diamond: This is a sample blogging web app built with MVC framework - [Yii 2](http://www.yiiframework.com/) and [Bootstrap](http://getbootstrap.com/). 
 
-&ast; It contains basic features like:
+:small_blue_diamond: It contains basic features like:
 <ul>
 <li> Login / Logout
 <li> GitHub based login
@@ -21,7 +21,7 @@
 <li> Send emails
 </ul>
 
-&ast; Upcoming features are:
+:small_orange_diamond: Upcoming features are:
 <ul>
 <li> Group memberships for users
 <li> Posting blogs to specific groups vs the currrent functionality which broadcasts the blog to all users 
