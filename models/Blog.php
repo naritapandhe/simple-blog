@@ -8,7 +8,7 @@ use Yii;
  * This is the model class for table "blog".
  *
  * @property integer $id
- * @property string $author
+ * @property string $author_id
  * @property string $post_subject
  * @property string $post_preview
  * @property string $post_body
@@ -44,7 +44,7 @@ class Blog extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'author' => 'Author',
+            'author_id' => 'Author',
             'post_subject' => 'Subject',
             'post_body' => 'Post Body',
             'post_date' => 'Date',

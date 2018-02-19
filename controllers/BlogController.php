@@ -47,8 +47,8 @@ class BlogController extends Controller
 	 */
 	public function actionIndex()
 	{
-		if ($author = Yii::$app->request->get('author')) {
-			$query = Blog::find()->where(['author' => $author]);
+		if ($author = Yii::$app->request->get('author_id')) {
+			$query = Blog::find()->where(['author_id' => $author]);
 		} else {
 			$query = Blog::find();
 		}
@@ -61,7 +61,7 @@ class BlogController extends Controller
 
 		return $this->render('index', [
 			'dataProvider' => $dataProvider,
-			'author' => $author,
+			'author_id' => $author
 		]);
 	}
 
@@ -85,7 +85,7 @@ class BlogController extends Controller
 	public function actionCreate()
 	{
 		$model = new Blog();
-		$model->author = Yii::$app->user->id;
+		$model->author_id = Yii::$app->user->id;
 		if ($model->load(Yii::$app->request->post()) && $model->save()) {
 			return $this->redirect(['view', 'id' => $model->id]);
 		} else {
