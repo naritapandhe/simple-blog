@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="blog-index">
 
     <h1><?= Html::encode($this->title) ?>
-    <?php if ($author) {echo "<h3>Author: $author</h3>";}?></h1>
+    <?php if ($author_id) {echo "<h3>Author: $author_id</h3>";}?></h1>
 
     <?= ListView::widget([
         'dataProvider' => $dataProvider,
