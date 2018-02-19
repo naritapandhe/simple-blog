@@ -4,13 +4,13 @@
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
     <h1 align="center">Simple Blog App</h1>
-    <h3 align="center">Access at: <a href="http://ec2-54-244-208-11.us-west-2.compute.amazonaws.com/">http://ec2-54-244-208-11.us-west-2.compute.amazonaws.com/</a></h3>
+    <h3 align="center"><a href="http://ec2-54-244-208-11.us-west-2.compute.amazonaws.com/">http://ec2-54-244-208-11.us-west-2.compute.amazonaws.com/</a></h3>
     <br>
 </p>
 
-This is a sample blogging web app built with MVC framework - [Yii 2](http://www.yiiframework.com/) and [Bootstrap](http://getbootstrap.com/). 
+* This is a sample blogging web app built with MVC framework - [Yii 2](http://www.yiiframework.com/) and [Bootstrap](http://getbootstrap.com/). 
 
-It contains basic features like:
+* It contains basic features like:
 <ul>
 <li> Login / Logout
 <li> GitHub based login
@@ -21,7 +21,7 @@ It contains basic features like:
 <li> Send emails
 </ul>
 
-Upcoming features are:
+* Upcoming features are:
 <ul>
 <li> Group memberships for users
 <li> Posting blogs to specific groups vs the currrent functionality which broadcasts the blog to all users 
