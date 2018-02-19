@@ -8,9 +8,9 @@
     <br>
 </p>
 
-* This is a sample blogging web app built with MVC framework - [Yii 2](http://www.yiiframework.com/) and [Bootstrap](http://getbootstrap.com/). 
+&ast; This is a sample blogging web app built with MVC framework - [Yii 2](http://www.yiiframework.com/) and [Bootstrap](http://getbootstrap.com/). 
 
-* It contains basic features like:
+&ast; It contains basic features like:
 <ul>
 <li> Login / Logout
 <li> GitHub based login
@@ -21,7 +21,7 @@
 <li> Send emails
 </ul>
 
-* Upcoming features are:
+&ast; Upcoming features are:
 <ul>
 <li> Group memberships for users
 <li> Posting blogs to specific groups vs the currrent functionality which broadcasts the blog to all users 
