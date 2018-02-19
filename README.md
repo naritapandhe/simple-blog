@@ -51,12 +51,8 @@ EXTENSIONS USED
       yii2-authclient
       yii2-markdown
       yii2-widget-datetimepicker
+      mailtrap
 -------------------
-      
-<p align="center">
-    
-    
-</p>      
       
    
       
